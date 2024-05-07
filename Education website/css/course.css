@@ -1,0 +1,30 @@
+
+ /* ===================== popular course =========================== */
+ .courses{
+    margin-top: 10rem;
+ }
+ .courses_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding : 0px 200px 0px 200px; */
+    gap: 2rem;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+ .course{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+ }
+ .course:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+ }
+ .course_Info{
+    padding: 2rem;
+ }
+ .course_Info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+ }
